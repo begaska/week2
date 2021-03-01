@@ -1,36 +1,41 @@
 body{
     font-family: "Open Sans", Helvetica, sans-serif;
-font-size: 16px;;
+    font-size: 16px;;
     line-height: 1.42;
     background-color:001821;
+    color: white;
+}
+.wrapper{
+    background: url(/img/фон.jpg);
+
 }
 .container{
     margin:0 auto;
     width:1140px;
+    
 }
 header{
     height: 65px;
     position: relative;
-    margin-bottom: 131px;
+    margin-bottom: 70px;
 
 }
-.logo{
-    display: inline-block;
+.logo__icon{
+    display: block;
     position: absolute;
-    top: 33px;
+    top: 27px;
     left:0;
 }
 .menu{
     position: absolute;
     top: 30px;
-    left: 305px;
+    left: 150px;
 
 }
 .contacts{
     position: absolute;
-    top: 19px;
-    right: -141px
-
+    top: 31px;
+    right: 0;
 }
 ul{
     margin: 0;
@@ -42,6 +47,13 @@ ul li{
 h1,h2,h3,h4,h5,h6{
     margin:0;
     font-weight: normal;
+}
+p{
+    margin-top: 0;
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
 }
 .menu__item{
     display:inline-block;
@@ -59,6 +71,7 @@ h1,h2,h3,h4,h5,h6{
     font-style:normal;
     text-align: right;
 }
+
 .contacts__tel{
     text-decoration: none;
     font-size: 26px;
@@ -74,27 +87,245 @@ h1,h2,h3,h4,h5,h6{
 }
 .preview{
     width: 511px;
+    margin-bottom: 127px;
 }
 .preview__title{
     font-weight: bold;
     font-size: 72px;
     line-height: 1.1;
-    margin-bottom: 23px;
+    margin-bottom: 26px;
 }
 .preview_description{
     font-size: 18px;
     margin-bottom: 33px;
-
 }
 .preview__button{
     background: #F5170E;
-border-radius: 35px;
-padding: 18px 39px;
-color: #FFFFFF;
-font-weight: bold;
-text-transform: uppercase;
+    border-radius: 35px;
+    border-color:#F5170E; ;
+    padding: 18px 39px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hot-tours{
+    margin-bottom: 127px;
+
+  
+}
+.hot-tours__title{
+    margin-bottom: 51px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.hot-tours__title-icon{
+    left:445px;
+    margin-bottom: 1px;
+    
+}
+.hot-tours__item{
+    min-height: 449px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 25px;
+    width: 358px;
+    background-color: white;
+
+
+}
+.hot-tours__item:last-child{
+margin-right: 0;
+}
+.hot-tours__photo{
+    min-height: 144px;
+    margin-bottom: 33px;
+}
+.hot-tours__content{
+    border-radius: 0px 0px 5px 5px;
+    padding: 19px 25px;
+    color:black;
+
+}
+.hot-tours__subtitle{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 22px;
+    color:black;
+}
+.hot-tours__features-blocks{
+    font-weight: normal;
+    font-size: 16px;
+    color: 666666;
+    display: inline-block;
+    align-items: center;
+    margin-right: 22px;
+    
+}
+.hot-tours__info{
+    font-weight: normal;
+    font-size: 14px;
+    
+}
+.hot-tours__button{
+    background: #F5170E;
+    border-radius: 35px;
+    border-color:#F5170E; ;
+    padding: 18px 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hot-tours__button:hover{
+    background-color: white;
+}
+
+
+.news__item{
+    width: 557px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden; 
+    margin: 6px;
+    margin-bottom:57px ;
+}
+.news__title{
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 51px;
+    
+}
+.news__content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 35px 55px;
+    min-height: 140px;
+    color: white;
+    margin-right: 92px;
+}
+
+.news__date{
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.news_subtitle{
+    font-weight: bold;
+font-size: 24px;
+margin-bottom: 3px;
+}
+.pagination{
+text-align: center;
+margin-bottom: 123px;
+}
+.pagination__display, .pagination__list{
+    display: inline-block;
+    vertical-align: middle;
+}
+.pagination__display{
+    margin-right: 26px;
+}
+.pagination__item{
+    display: inline-block;
+    vertical-align: middle;
+}
+.pagination__link{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+.pagination__item--active,.pagination__link:hover{
+    background-color: #FFFFFF;
+    color: red;
+}
+.about:before{
+    content:"";
+    display:inline-block;
+    vertical-align: top;
+    width: 502px;
+    height:505px;
+    background: url("/img/gates.png") center center / cover no-repeat;
+    border-radius: 5px;
+}
+
+.about__desc{
+    background: url("/img/mountains.png")center center / cover no-repeat;;
+    padding: 70px 80px;
+    display:inline-block;
+    vertical-align: top;
+    width: 780px;
+    margin-left: -147px;
+    margin-top: 166px;
+    border-radius: 5px;
+}
+
+.about__title{
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    margin-bottom: 40px;
+}
+.about__text{
+    margin-bottom: 42px;
+    color:black;
+
+}
+.about__text p{
+    margin-bottom: 30px;
+}
+.about__text p:last-child{
+    margin-bottom:0;
+}
+.about__button{
+    background: #F5170E;
+    border-radius: 35px;
+    border-color:#F5170E; ;
+    padding: 18px 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 footer{
     position: relative;
-
+    height: 152px;
+}
+.contact__tel{
+    display: block;
+}
+.contact__text{
+    font-size: 11px;
+    line-height: 20px;
+}
+.contact__tel{
+    font-size: 26px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.socials{position: absolute;}
+.socials__item{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.socials__item:last-child{
+    margin-right: 0;
+}
+.socials__link{
+    display:block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+.socials{
+    top:51px;
+    right:300px;
 }
