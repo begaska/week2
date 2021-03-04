@@ -6,7 +6,7 @@ body{
     color: white;
 }
 .wrapper{
-    background: url(фон.jpg);
+    background-images: url(images/фон.jpg);
 
 }
 .container{
