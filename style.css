@@ -6,7 +6,7 @@ body{
     color: white;
 }
 .wrapper{
-    background: url(/img/фон.jpg);
+    background: url(img/фон.jpg);
 
 }
 .container{
@@ -252,12 +252,12 @@ margin-bottom: 123px;
     vertical-align: top;
     width: 502px;
     height:505px;
-    background: url("/img/gates.png") center center / cover no-repeat;
+    background: url("img/gates.png") center center / cover no-repeat;
     border-radius: 5px;
 }
 
 .about__desc{
-    background: url("/img/mountains.png")center center / cover no-repeat;;
+    background: url("img/mountains.png")center center / cover no-repeat;;
     padding: 70px 80px;
     display:inline-block;
     vertical-align: top;
