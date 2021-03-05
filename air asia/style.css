@@ -2,11 +2,21 @@ body{
     font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 16px;;
     line-height: 1.42;
-    background-color:001821;
+    background-color:#001821;
     color: white;
 }
+a{
+    color:inherit;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
 .wrapper{
-    background: url(/img/фон.jpg);
+    background: url(./img/фон.jpg);
 
 }
 .container{
@@ -20,7 +30,7 @@ header{
     margin-bottom: 70px;
 
 }
-.logo__icon{
+.logo{
     display: block;
     position: absolute;
     top: 27px;
@@ -30,19 +40,14 @@ header{
     position: absolute;
     top: 30px;
     left: 150px;
-
 }
+
 .contacts{
     position: absolute;
     top: 31px;
     right: 0;
 }
-ul{
-    margin: 0;
-    padding: 0;
-}
-ul li{
-    list-style: none;
+
 }
 h1,h2,h3,h4,h5,h6{
     margin:0;
@@ -252,12 +257,12 @@ margin-bottom: 123px;
     vertical-align: top;
     width: 502px;
     height:505px;
-    background: url("/img/gates.png") center center / cover no-repeat;
+    background: url("./img/gates.png") center center / cover no-repeat;
     border-radius: 5px;
 }
 
 .about__desc{
-    background: url("/img/mountains.png")center center / cover no-repeat;;
+    background: url("./img/mountains.png")center center / cover no-repeat;;
     padding: 70px 80px;
     display:inline-block;
     vertical-align: top;
@@ -293,6 +298,10 @@ margin-bottom: 123px;
     font-weight: bold;
     text-transform: uppercase;
 }
+.footer-container__content{
+    border-top:1px solid #FFFFFF
+
+}
 footer{
     position: relative;
     height: 152px;
@@ -319,11 +328,12 @@ footer{
 .socials__item:last-child{
     margin-right: 0;
 }
-.socials__link{
+.socials__link:hover{
     display:block;
     text-decoration: none;
     width: 36px;
     height: 36px;
+    background: center center no-repeat;
 }
 .socials{
     top:51px;
