@@ -4,6 +4,7 @@ body{
     line-height: 1.42;
     background-color:#001821;
     color: white;
+    margin: 0;
 }
 a{
     color:inherit;
@@ -22,7 +23,7 @@ ul li{
 .container{
     margin:0 auto;
     width:1140px;
-    
+    position: relative;
 }
 header{
     height: 65px;
@@ -44,11 +45,10 @@ header{
 
 .contacts{
     position: absolute;
-    top: 31px;
+    top: 21px;
     right: 0;
 }
 
-}
 h1,h2,h3,h4,h5,h6{
     margin:0;
     font-weight: normal;
@@ -146,6 +146,7 @@ margin-right: 0;
 .hot-tours__photo{
     min-height: 144px;
     margin-bottom: 33px;
+    max-width: 100%;
 }
 .hot-tours__content{
     border-radius: 0px 0px 5px 5px;
@@ -250,6 +251,7 @@ margin-bottom: 123px;
 .pagination__item--active,.pagination__link:hover{
     background-color: #FFFFFF;
     color: red;
+    border-radius: 50%;
 }
 .about:before{
     content:"";
@@ -304,7 +306,7 @@ margin-bottom: 123px;
 }
 footer{
     position: relative;
-    height: 152px;
+    height: 132px;
 }
 .contact__tel{
     display: block;
@@ -336,6 +338,22 @@ footer{
     background: center center no-repeat;
 }
 .socials{
-    top:51px;
+    top:47px;
     right:300px;
+}
+
+.about {
+    margin-bottom: 90px;
+}
+
+.logo_footer {
+    top: 47px;
+}
+
+.menu_footer {
+    top: 50px;
+}
+
+.contacts_footer {
+    top: 36px;
 }
